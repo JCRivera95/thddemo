@@ -6,13 +6,14 @@ import org.hibernate.Hibernate;
 import javax.persistence.*;
 import java.util.Objects;
 
-@Entity @Table(name = "roles")
+@Entity
 @Getter
 @Setter
 @ToString
-@RequiredArgsConstructor
 @NoArgsConstructor
 @AllArgsConstructor
+@Table(name = "roles")
+@RequiredArgsConstructor
 public class Role {
 
     @Id
@@ -33,3 +34,4 @@ public class Role {
         return getClass().hashCode();
     }
 }
+

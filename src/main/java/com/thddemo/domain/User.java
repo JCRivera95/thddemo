@@ -8,13 +8,14 @@ import java.util.ArrayList;
 import java.util.Collection;
 import java.util.Objects;
 
-@Entity @Table(name = "users")
+@Entity
 @Getter
 @Setter
 @ToString
-@RequiredArgsConstructor
 @NoArgsConstructor
 @AllArgsConstructor
+@Table(name = "users")
+@RequiredArgsConstructor
 public class User {
 
     @Id
@@ -40,3 +41,4 @@ public class User {
         return getClass().hashCode();
     }
 }
+
