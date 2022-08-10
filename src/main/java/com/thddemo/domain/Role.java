@@ -13,7 +13,6 @@ import java.util.Objects;
 @NoArgsConstructor
 @AllArgsConstructor
 @Table(name = "roles")
-@RequiredArgsConstructor
 public class Role {
 
     @Id

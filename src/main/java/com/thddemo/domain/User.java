@@ -15,7 +15,6 @@ import java.util.Objects;
 @NoArgsConstructor
 @AllArgsConstructor
 @Table(name = "users")
-@RequiredArgsConstructor
 public class User {
 
     @Id
